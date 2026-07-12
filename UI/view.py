@@ -37,7 +37,7 @@ class View(ft.UserControl):
         self._btnSelezione = ft.ElevatedButton(text="Trova selezione album",
                                               on_click=self._controller.handleSelezione)
 
-        row2 = ft.Row([ft.Container(self._ddAlbum, width=125),
+        row2 = ft.Row([ft.Container(self._ddAlbum, width=250),
                        ft.Container(self._txtInN, width=125),
                        ft.Container(self._btnSelezione, width=250)],
                       alignment=ft.MainAxisAlignment.CENTER)
